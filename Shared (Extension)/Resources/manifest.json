@@ -18,10 +18,16 @@
         "service_worker": "background.js"
     },
 
-    "content_scripts": [{
-        "js": [ "content.js" ],
-        "matches": [ "*://example.com/*" ]
-    }],
+    "content_scripts": [
+        {
+            "js": [ "facebook.js" ],
+            "matches": [ "*://www.facebook.com/*" ]
+        },
+        {
+            "js": [ "youtube.js" ],
+            "matches": [ "*://www.youtube.com/*" ]
+        },
+    ],
 
     "action": {
         "default_popup": "popup.html",
@@ -35,5 +41,7 @@
         }
     },
 
-    "permissions": [ ]
+    "permissions": [
+        "tabs"
+    ]
 }

@@ -37,14 +37,16 @@
 		AE1C667F2BE4BC6A0025C5E5 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66332BE4BC6A0025C5E5 /* manifest.json */; };
 		AE1C66802BE4BC6A0025C5E5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66342BE4BC6A0025C5E5 /* background.js */; };
 		AE1C66812BE4BC6A0025C5E5 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66342BE4BC6A0025C5E5 /* background.js */; };
-		AE1C66822BE4BC6A0025C5E5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66352BE4BC6A0025C5E5 /* content.js */; };
-		AE1C66832BE4BC6A0025C5E5 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66352BE4BC6A0025C5E5 /* content.js */; };
 		AE1C66842BE4BC6A0025C5E5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66362BE4BC6A0025C5E5 /* popup.html */; };
 		AE1C66852BE4BC6A0025C5E5 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66362BE4BC6A0025C5E5 /* popup.html */; };
 		AE1C66862BE4BC6A0025C5E5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66372BE4BC6A0025C5E5 /* popup.css */; };
 		AE1C66872BE4BC6A0025C5E5 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66372BE4BC6A0025C5E5 /* popup.css */; };
 		AE1C66882BE4BC6A0025C5E5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66382BE4BC6A0025C5E5 /* popup.js */; };
 		AE1C66892BE4BC6A0025C5E5 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C66382BE4BC6A0025C5E5 /* popup.js */; };
+		AE1C669B2BE4EB050025C5E5 /* youtube.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C669A2BE4EB050025C5E5 /* youtube.js */; };
+		AE1C669C2BE4EB050025C5E5 /* youtube.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C669A2BE4EB050025C5E5 /* youtube.js */; };
+		AE1C669E2BE4ECD70025C5E5 /* facebook.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C669D2BE4ECD70025C5E5 /* facebook.js */; };
+		AE1C669F2BE4ECD70025C5E5 /* facebook.js in Resources */ = {isa = PBXBuildFile; fileRef = AE1C669D2BE4ECD70025C5E5 /* facebook.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,7 +103,6 @@
 		AE1C66322BE4BC6A0025C5E5 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		AE1C66332BE4BC6A0025C5E5 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		AE1C66342BE4BC6A0025C5E5 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		AE1C66352BE4BC6A0025C5E5 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
 		AE1C66362BE4BC6A0025C5E5 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		AE1C66372BE4BC6A0025C5E5 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		AE1C66382BE4BC6A0025C5E5 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
@@ -120,6 +121,8 @@
 		AE1C66652BE4BC6A0025C5E5 /* blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1C666A2BE4BC6A0025C5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE1C666B2BE4BC6A0025C5E5 /* blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = blocker.entitlements; sourceTree = "<group>"; };
+		AE1C669A2BE4EB050025C5E5 /* youtube.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = youtube.js; sourceTree = "<group>"; };
+		AE1C669D2BE4ECD70025C5E5 /* facebook.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = facebook.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +207,8 @@
 				AE1C66322BE4BC6A0025C5E5 /* images */,
 				AE1C66332BE4BC6A0025C5E5 /* manifest.json */,
 				AE1C66342BE4BC6A0025C5E5 /* background.js */,
-				AE1C66352BE4BC6A0025C5E5 /* content.js */,
+				AE1C669D2BE4ECD70025C5E5 /* facebook.js */,
+				AE1C669A2BE4EB050025C5E5 /* youtube.js */,
 				AE1C66362BE4BC6A0025C5E5 /* popup.html */,
 				AE1C66372BE4BC6A0025C5E5 /* popup.css */,
 				AE1C66382BE4BC6A0025C5E5 /* popup.js */,
@@ -420,8 +424,9 @@
 				AE1C667C2BE4BC6A0025C5E5 /* images in Resources */,
 				AE1C667E2BE4BC6A0025C5E5 /* manifest.json in Resources */,
 				AE1C667A2BE4BC6A0025C5E5 /* _locales in Resources */,
-				AE1C66822BE4BC6A0025C5E5 /* content.js in Resources */,
 				AE1C66882BE4BC6A0025C5E5 /* popup.js in Resources */,
+				AE1C669E2BE4ECD70025C5E5 /* facebook.js in Resources */,
+				AE1C669B2BE4EB050025C5E5 /* youtube.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,8 +440,9 @@
 				AE1C667D2BE4BC6A0025C5E5 /* images in Resources */,
 				AE1C667F2BE4BC6A0025C5E5 /* manifest.json in Resources */,
 				AE1C667B2BE4BC6A0025C5E5 /* _locales in Resources */,
-				AE1C66832BE4BC6A0025C5E5 /* content.js in Resources */,
 				AE1C66892BE4BC6A0025C5E5 /* popup.js in Resources */,
+				AE1C669F2BE4ECD70025C5E5 /* facebook.js in Resources */,
+				AE1C669C2BE4EB050025C5E5 /* youtube.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +570,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8B665X94V9;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -625,6 +632,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8B665X94V9;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
