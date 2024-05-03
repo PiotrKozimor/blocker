@@ -1,12 +1,12 @@
 function noPrimary() {
-    console.log("primary");
+    console.log("noPrimary");
     document.querySelectorAll('div[id="primary"]').forEach((item) => {
         item.style.display = 'none';
     });
 }
 
 function restorePrimary() {
-    console.log("primary");
+    console.log("restorePrimary");
     document.querySelectorAll('div[id="primary"]').forEach((item) => {
         item.style.display = 'block';
     });
@@ -35,7 +35,8 @@ browser.runtime.onMessage.addListener((message) => {
         case "secondary":
             noSecondary();
             restorePrimary();
-            removeSearchBox;
+            removeSearchBox();
+            break;
     }
 });
 
