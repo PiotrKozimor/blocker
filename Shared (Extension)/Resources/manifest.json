@@ -26,7 +26,7 @@
         {
             "js": [ "youtube.js" ],
             "matches": [ "*://www.youtube.com/*" ]
-        },
+        }
     ],
 
     "action": {
