@@ -14,7 +14,7 @@ function restorePrimary() {
 
 function removeSearchBox() {
     console.log("searchBox");
-    document.querySelectorAll('ytd-searchbox').forEach((item) => {
+    document.querySelectorAll('[role=search]').forEach((item) => {
         item.style.display = 'none';
     });
 }
